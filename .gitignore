@@ -1,0 +1,69 @@
+# ===============================
+# Node.js & Express backend
+# ===============================
+
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+log.txt
+*.out
+*.err
+
+# Cache
+.cache/
+.tmp/
+temp/
+tmp/
+dist/
+build/
+
+# Coverage (tests)
+coverage/
+.nyc_output/
+
+# PM2 logs
+.pmd/
+.pids/
+*.pid
+*.seed
+
+# Editor & sistema
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.history/
+.idea/
+
+# TypeScript (si lo usas)
+*.tsbuildinfo
+
+# Uploads (si guardas archivos)
+uploads/
+uploads_temp/
+
+# Certificados SSL
+certs/
+*.pem
+*.crt
+*.key
+
+# Sequelize auto-generated
+sequelize-data/
+sequelize-auto/
+
+# Docker
+docker-compose.override.yml
+ 
